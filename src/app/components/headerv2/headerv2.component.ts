@@ -15,4 +15,8 @@ export class Headerv2Component implements OnInit {
   Afficher(){
     this.router.navigate(['/sign-in']);
   }
+
+  Afficher2(){
+    this.router.navigate(['/sign-up']);
+  }
 }

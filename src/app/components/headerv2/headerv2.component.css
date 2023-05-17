@@ -1,12 +1,12 @@
 .navbar{
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
 
 }
 .logo{
-    width: 180px;
-    height: 150px;
+    width: 260px;
+    height: 220px;
     cursor: pointer;
 }
 
@@ -18,7 +18,7 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 150px
+    margin: 50px
 }
 
 nav ul li a{

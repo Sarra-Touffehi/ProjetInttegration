@@ -5,19 +5,27 @@
 
     <nav>
         <ul>
+
+            <li>
+                <a [routerLink]="['/menu']"> HOME</a>
+                
+                
+            </li>
             <li class="icons">
             
                     <a [routerLink]="['/sign-in']">
                     
                     <i style="color: black;" class="fas fa-user" (click)="Afficher()" id="login-btn" ></i> </a>
                 
-                <a  class="nav-item logo"  (click)="Afficher()">log in</a>
+                <a  class="nav-item logo"  (click)="Afficher()">LOG IN</a>
             </li>
             <li>
-                <a href="#">Register</a>
-            </li>
+               
+                
+                <a [routerLink]="['/sign-up']"  class="nav-item logo"  (click)="Afficher2()">REGISTER</a>           
+             </li>
             <li>
-                <a href="#">About-Us</a>
+                <a href="#">ABOUT-US</a>
             </li>
             
         </ul>
