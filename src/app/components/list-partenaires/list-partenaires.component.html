@@ -1,0 +1,22 @@
+
+<div class="hero">
+    
+    <div class="container">
+        <div style="text-align: center;">
+            <h3>CHOISIR UN SERVICE</h3>
+        </div>
+        
+
+<div *ngFor="let partenaire of partenaires">
+    <div class="row">
+        {{ partenaire.libelle }}
+        <label>
+      <input type="checkbox"  [value]="partenaire.idTypePartenaire">
+      <span></span>
+    </label>
+</div>
+  </div>
+<button type="button" [routerLink]="['/list-services']">CHOISIR</button>
+</div>
+
+</div>

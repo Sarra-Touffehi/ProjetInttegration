@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: #F5EFE6;
+    color: #F5EFE6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 450px;
+    padding: 25px 40px 25px 25px;
+    border: 2px solid #B1BAC7;
+    border-radius: 15px;
+    background-color: #B1BAC7;
+    background-image:linear-gradient(rgba(2, 2, 2, 0.763),rgba(124, 124, 124, 0.7)), url(../../../assets/wedd1.webp);
+    box-sizing: border-box;
+    box-shadow: 0 14px 28px black,
+    0 10px 10px black;
+    transition: .4s;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    font-size: 24px;
+}
+label{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+input{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    opacity: 0;
+}
+label span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 3px solid #F5EFE6;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+label span::after{
+    content: '';
+    position: absolute;
+    left: 24px;
+    bottom: 10px;
+    width: 0px;
+    height: 0px;
+    border: solid #FCB5AA;
+    border-width: 0 6px 6px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: width 0.5s , height 0.5s, opacity 0.5s;
+}
+
+input:checked ~ span::after{
+    width: 20px;
+    height: 40px;
+    opacity: 1;
+}
+
+h3{
+    color: #FCB5AA;
+}
+
+button{
+    background-color: #FCB5AA ;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color:#F5EFE6 ;
+    border : solid #FCB5AA;
+
+    box-shadow: 0 8px 10px rgb(57, 57, 57),
+    0 4px 4px rgb(82, 82, 82);
+    transition: .4s;
+
+
+}
+

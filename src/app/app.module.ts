@@ -9,6 +9,8 @@ import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { Headerv2Component } from './components/headerv2/headerv2.component';
 import { ErrorComponent } from './components/error/error.component';
+import { ListServicesComponent } from './components/list-services/list-services.component';
+import { ListPartenairesComponent } from './components/list-partenaires/list-partenaires.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { ErrorComponent } from './components/error/error.component';
     MenuComponent,
     Headerv2Component,
     ErrorComponent,
+    ListServicesComponent,
+    ListPartenairesComponent,
   ],
   imports: [
     BrowserModule,
