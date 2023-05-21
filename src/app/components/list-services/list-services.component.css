@@ -1,0 +1,24 @@
+h1{font-style: italic;text-align: center; }
+p{font-family:Verdana, Geneva, Tahoma, sans-serif ;font-size: 15px;}
+button{ background-color: #FCB5AA ;
+    border-radius: 8px;
+    color:#F5EFE6 ;
+    border : solid #FCB5AA;
+    box-shadow: 0 8px 10px rgb(57, 57, 57);
+    font-weight: bold;
+margin-left: 95px;}
+span{
+    font-weight: bold;
+}
+.container{ 
+   width: 340px;
+margin-left: 10px;
+}
+
+.card{border : solid #FCB5AA;
+    box-shadow: 0 8px 10px rgb(57, 57, 57);
+    border-radius: 10px;}
+.card-body{
+    background-color: rgb(245, 245, 235) ;}
+   .s{justify-content: space-between;}
+  

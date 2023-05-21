@@ -23,6 +23,7 @@ import { ListPartenairesComponent } from './components/list-partenaires/list-par
     ErrorComponent,
     ListServicesComponent,
     ListPartenairesComponent,
+  
   ],
   imports: [
     BrowserModule,

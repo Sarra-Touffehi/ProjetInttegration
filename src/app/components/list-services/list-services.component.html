@@ -1,1 +1,20 @@
-<p>list-services works!</p>
+<div *ngFor="let service of services" class="s">
+    <h1>{{service.libelle}}</h1>
+<div class="container" >
+  <div class="div1">
+        <div class="card" >
+            
+            <img [src]= service.image class="card-img-top" alt="Accroche HTML">
+                <div class="card-body" >
+                    <h1></h1>
+                   <p class="card-text">{{service.description}}</p>
+                    <span>Prix: {{service.prix}} DT</span><br/>
+                    <div style="text-align: center;">
+                    <input type="radio"> 
+                    <label style="justify-content: center; padding-left: 12px;">Réserver</label>
+                </div>
+            </div>
+      
+        </div>
+    </div>
+</div>
